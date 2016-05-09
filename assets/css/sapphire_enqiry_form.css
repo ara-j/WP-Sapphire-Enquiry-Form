@@ -1,0 +1,97 @@
+body {
+    padding:0px;
+}
+
+#Enquiry-Form {
+}
+
+    #Enquiry-Form form {
+
+    }
+
+        #Enquiry-Form form .required label {
+            font-family:Arial;
+            color:#000;
+        }
+
+            #Enquiry-Form form .required label:after {
+                content:'*';
+                color:#ff0000 !important;
+            }
+
+            #Enquiry-Form form .required label.error {
+                background-color: #d9534f !important;
+                padding: 5px 10px;
+                color: #fff;
+                display:block;
+                margin:4px 0 4px 0;
+            }
+
+            #Enquiry-Form form .required label.error:after {
+                content:none;
+            }
+
+        #Enquiry-Form form input, #Enquiry-Form form select, #Enquiry-Form form textarea {
+            background-color: #ddd !important;
+            padding: 8px 10px !important;
+            display: block;
+            border-radius: 4px;
+            font-family: Arial;
+            width: 100%;
+            transition: all linear 0.3s;
+        }
+
+            #Enquiry-Form form input:focus, #Enquiry-Form form select:focus,  #Enquiry-Form form textarea:focus {
+                box-shadow:#aaa 0 0 15px inset;
+            }
+
+            #Enquiry-Form form input.error, #Enquiry-Form form select.error, #Enquiry-Form form textarea.error {
+                border: 1px solid #d9534f !important;
+            }
+
+            #Enquiry-Form form input.valid, #Enquiry-Form form select.valid, #Enquiry-Form form textarea.valid {
+                border: 1px solid #5cb85c !important;
+            }
+
+
+        #Enquiry-Form form .submit-form {
+            background-color:#5cb85c !important;
+            color:#fff;
+            padding:14px 30px !important;
+        }
+
+#sapphire-loader {
+    font-family:Arial;
+    font-size:14px;
+    text-align:center;
+    display:none;
+}
+.success
+{
+    display:block;
+    background-color:#5cb85c;
+    padding:10px 15px;
+    color:#fff;
+    border-radius:5px;
+    font-weight:bold;
+    margin:0 10px;
+    text-align:center;
+}
+
+.row {
+    width: 100%;
+    clear: both;
+    font-family:Arial;
+}
+.col {
+    float: left;
+    padding:10px;
+}
+.col6 {
+    width:50%;
+}
+
+.col12 {
+    width:100%;
+}
+
